@@ -4,7 +4,7 @@ using namespace std;
 
 // Function to demonstrate printing pattern
 
-void Pyramid(int n,string fullString)
+void Pyramid(int n, string fullString)
 {
 	int i = 0, j = 0, k = 0;
 	while (i <= n) {
@@ -38,7 +38,7 @@ int main()
 	string input;
 	cout << "Input :  ";
 	cin >> input;
-	
+
 	int n = input.length();
 
 	string half = input.substr(0, input.length() / 2);
